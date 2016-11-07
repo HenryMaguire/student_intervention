@@ -235,7 +235,7 @@ div#notebook {
 <span class="c"># Read student data</span>
 <span class="n">student_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">&quot;student-data.csv&quot;</span><span class="p">)</span>
 <span class="k">print</span> <span class="s">&quot;Student data read successfully!&quot;</span>
-<span class="k">print</span> <span class="n">student_data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span> <span class="c"># Useful for understanding data structure</span>
+<span class="c">#print student_data.info() # Useful for understanding data structure</span>
 </pre></div>
 
 </div>
@@ -249,43 +249,6 @@ div#notebook {
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Student data read successfully!
-&lt;class &apos;pandas.core.frame.DataFrame&apos;&gt;
-RangeIndex: 395 entries, 0 to 394
-Data columns (total 31 columns):
-school        395 non-null object
-sex           395 non-null object
-age           395 non-null int64
-address       395 non-null object
-famsize       395 non-null object
-Pstatus       395 non-null object
-Medu          395 non-null int64
-Fedu          395 non-null int64
-Mjob          395 non-null object
-Fjob          395 non-null object
-reason        395 non-null object
-guardian      395 non-null object
-traveltime    395 non-null int64
-studytime     395 non-null int64
-failures      395 non-null int64
-schoolsup     395 non-null object
-famsup        395 non-null object
-paid          395 non-null object
-activities    395 non-null object
-nursery       395 non-null object
-higher        395 non-null object
-internet      395 non-null object
-romantic      395 non-null object
-famrel        395 non-null int64
-freetime      395 non-null int64
-goout         395 non-null int64
-Dalc          395 non-null int64
-Walc          395 non-null int64
-health        395 non-null int64
-absences      395 non-null int64
-passed        395 non-null object
-dtypes: int64(13), object(18)
-memory usage: 95.7+ KB
-None
 </pre>
 </div>
 </div>
